@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 16px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.dropdown-animation {
+  animation-name: dropdown-animationn;
+  animation-duration: 1s;
+}
+@keyframes dropdown-animationn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
