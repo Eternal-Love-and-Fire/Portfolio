@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const LinkCustom = ({ to, text }: { to: string; text: string }) => {
+export const CustomLink = ({ to, text }: { to: string; text: string }) => {
   return (
     <Link
       to={to}

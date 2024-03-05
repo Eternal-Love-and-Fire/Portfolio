@@ -1,9 +1,7 @@
 import React from 'react'
-import { Wrapper } from '../../shared'
 
 export const Contacs = () => {
   return (
-    <Wrapper>
         <div>
             <div>
                 <a href="https://www.linkedin.com/in/yevgen-kotyk-124012179/" target='_blank'>LinkedIn</a>
@@ -22,6 +20,5 @@ export const Contacs = () => {
             </div>
             
         </div>
-    </Wrapper>
   )
 }

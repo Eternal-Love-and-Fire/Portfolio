@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { Nav } from "../../../components";
-import { BurgerMenu, Logo } from "../../../shared";
+import { useEffect, useState } from "react";
+
+import { Nav, BurgerMenu, Logo } from "../../..";
 
 export const Header = () => {
   const [dropMenu, setDropMenu] = useState(false);
